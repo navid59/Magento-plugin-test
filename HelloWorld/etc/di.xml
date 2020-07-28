@@ -11,4 +11,7 @@
         <plugin name="Navid_HelloWorld" type="Navid\HelloWorld\Plugin\ProductPlugin" sortOrder="10"/>
     </type>
     <preference for="Navid\HelloWorld\Block" type="Navid\HelloWorld\Plugin\Foo" />
+    <preference for="Navid\HelloWorld\Block" type="Navid\HelloWorld\Plugin\Audi" />
+    <preference for="\Navid\HelloWorld\Block" type="Navid\HelloWorld\Plugin\Volvo" />
+    <preference for="\Navid\HelloWorld\Block" type="Navid\HelloWorld\Plugin\Logan" />
 </config>
