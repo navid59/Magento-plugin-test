@@ -1,7 +1,7 @@
 <?php
     namespace Navid\HelloWorld\Block;
-    use foo\Foo;
     use Magento\Framework\View\Element\Template;
+    use Navid\HelloWorld\Plugin\Foo;
 
     class Hello extends Template
     {
@@ -18,6 +18,6 @@
          * @return mixed
          */
         public function getOopTest() {
-            return 'Something from Class';
+            return Foo::fooTest();
         }
     }
